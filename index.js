@@ -30,6 +30,12 @@ function makeInt(n,base){
   return parseInt(n,10);
 
 }
+function makeInt(n){
+if(Number.isInteger(a)){
+     return false;
+   }
+     return NaN;
+   }
 function preserveDecimal(n){
   return parseFloat(n);
 }
