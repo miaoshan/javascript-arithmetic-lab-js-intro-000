@@ -23,20 +23,9 @@ function dec(a){
 
 
 
-function makeInt(a){
-  var n;
-if(n==a.toString()){
-   return parseInt(n)
-  }
-  else if(Number.isInteger(a)){{
-    return false;
-  }
-    return NaN;
-  }
-else {
+function makeInt(n){
+  return parseInt(n,10)
 
-return parseInt(n,10)
-}
 }
 function preserveDecimal(n){
   return parseFloat(n)
