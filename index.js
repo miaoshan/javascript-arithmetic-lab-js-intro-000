@@ -38,3 +38,6 @@ else if(makeInt(parseInt(a,10))){
 return 0;
 }
 }
+function preserveDecimal(n){
+  return parseFloat(n)
+}
