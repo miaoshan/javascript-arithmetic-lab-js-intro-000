@@ -33,9 +33,9 @@ if(n==a.toString()){
   }
     return NaN;
   }
-else if(makeInt(parseInt(a,10))){
+else {
 
-return 0;
+return parseInt(n,10)
 }
 }
 function preserveDecimal(n){
