@@ -31,7 +31,7 @@ function makeInt(n,base){
 
 }
 function makeInt(n){
-if(Number.isInteger(a)){
+if(Number.isInteger(n)){
      return false;
    }
      return NaN;
